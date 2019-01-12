@@ -1,0 +1,32 @@
+{
+  "name": "untitled3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.6.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "fs": "0.0.1-security",
+    "imdb-api": "^4.0.2",
+    "mongoose": "^5.4.2",
+    "nodemon": "^1.18.7",
+    "npm": "^6.4.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "simple-node-logger": "^0.93.40",
+    "stage": "^1.0.0",
+    "telegraf": "^3.25.5",
+    "webshot": "^0.18.0"
+  }
+}

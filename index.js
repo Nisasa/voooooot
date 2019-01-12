@@ -266,7 +266,7 @@ const top = new WizardScene('top',
                 parse_mode: 'HTML',
                 reply_markup: {
                     keyboard: [
-                        ['👤Заказать подписчиков', '📈Условия накрутки'],
+                        ['👤Заказать подписчиков', '👁‍🗨Просмотры'],
                         ['📃FAQ', '🎁Бонусы'],
                         ['📢Support']
                     ],

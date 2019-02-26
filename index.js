@@ -27,7 +27,7 @@ mongoose.connect('mongodb://top:88993421q@ds022408.mlab.com:22408/top', { useNew
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-}).listen(process.env.PORT || 5000);
+}).listen(process.env.PORT || 3000);
 
 const stepHandler = new Composer();
 

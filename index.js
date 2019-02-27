@@ -5,7 +5,6 @@ const Stage = require('telegraf/stage');
 const WizardScene = require('telegraf/scenes/wizard');
 const webshot = require('webshot')
 const fs = require('fs');
-const express = require('express');
 const http = require('http');
 const mongoose = require('mongoose');
 const Markup = require('telegraf/markup')
@@ -21,13 +20,15 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const MessagesService = require('./messages-service');
 const users = require('./message-model');
+const express = require('express');
+const app = express();
+
+app.use('/', express.static('public'));
+
+app.listen(process.env.PORT || 8080);
 
 
 mongoose.connect('mongodb://top:88993421q@ds022408.mlab.com:22408/top', { useNewUrlParser: true });
-
-http.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-}).listen(process.env.PORT || 3000);
 
 const stepHandler = new Composer();
 

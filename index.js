@@ -645,7 +645,7 @@ const teh = new WizardScene('teh',
 );
 
 
-const bot = new Telegraf('628897377:AAHc7mxfKTPCgbdwb_1FuvtaS543Ulh7pzg');
+const bot = new Telegraf('717336986:AAEJeDYQCHqBonZMkAQEpRc-CCin_FJ41ww');
 
 const stage = new Stage();
 
